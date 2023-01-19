@@ -1,12 +1,13 @@
 {
   "name": "website-eleventy",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Elenty blog",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "npx @11ty/eleventy --serve"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "enzo.testa@oclock.io",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.2"
+  }
 }

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>o'Tech News | {{ title }}</title>
+  
+  <style> {% include "src/assets/globals.css" %} </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>💿 o'Tech News</h1>
+    
+    <h2>{{ title }}</h2>
+  </header>
+
+  <main>
+    {{ content | safe }}
+  </main>
+
+  <footer>
+    <small>o'Tech News est construit avec <a href="https://www.11ty.dev/">Eleventy</a>.</small>
+  </footer>
+
+</body>
+</html>
